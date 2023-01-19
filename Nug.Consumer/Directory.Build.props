@@ -1,0 +1,11 @@
+<Project>
+
+    <PropertyGroup>
+        <RestoreSources>$(RestoreSources);$(MSBuildThisFolder)../Nug.Core/artifacts</RestoreSources>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <NugCorePackageVersion>1.0.2</NugCorePackageVersion>
+    </PropertyGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      last commit push  : f7f96ce7d8492389fe62846a33da898baf3bb120
+      associated version: 1.0.0-20220712111338
+      associated version: 1.0.1
+    -->
+    <PackageReference Include="Nug.Core.Foo" Version="$(NugCorePackageVersion)" />
+    <PackageReference Include="Nug.Core.Bar" Version="$(NugCorePackageVersion)" />
+  </ItemGroup>
+
+</Project>
